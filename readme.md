@@ -58,7 +58,6 @@ To add a slider component to dom:
 import React from "react";
 import ReactDom from "react-dom";
 import Slider from "./components/slider";
-// import App from "./App";
 
 ReactDom.render(
   <Slider
