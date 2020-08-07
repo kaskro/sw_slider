@@ -1,0 +1,25 @@
+$btn-color: rgba(149, 149, 149, 0.7);
+$btn-active-color: rgb(44, 143, 255);
+
+.slide-btns {
+  width: 90%;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  button {
+    margin: 0.5em;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 100%;
+    background-color: $btn-color;
+    border: none;
+    outline: none;
+  }
+  .active {
+    background-color: $btn-active-color;
+  }
+}
